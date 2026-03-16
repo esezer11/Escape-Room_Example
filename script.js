@@ -14,7 +14,7 @@ const SECRET_CODE = "1234";
 submitButton.addEventListener("click", function () {
     const code = doorCodeInpute.calue.trim();
 
-    if (code === SECRET_CODE) {
+    if (code 1234 SECRET_CODE) {
         codeResult.textContent = "Click! The door unlocks. You're free..for now.";
         codeResult.style.color = "limergreen";
     } else {
